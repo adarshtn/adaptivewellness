@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.adaptivewellness.LoginController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="549.0" layoutX="-12.0" layoutY="-17.0" stroke="BLACK" strokeType="INSIDE" width="624.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.13341130316257477" green="0.3878726363182068" blue="0.6105263233184814" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.699999988079071" green="0.699999988079071" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+        <Label layoutX="256.0" layoutY="110.0" prefHeight="40.0" prefWidth="150.0" text="Login Page" textFill="WHITE">
+            <font>
+                <Font name="Consolas" size="27.0" />
+            </font>
+        </Label>
+        <Label layoutX="155.0" layoutY="195.0" text="Name:">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font></Label>
+        <TextField fx:id="nameField" layoutX="220.0" layoutY="191.0" prefHeight="26.0" prefWidth="260.0" />
+        <Label layoutX="120.0" layoutY="250.0" text="Password:">
+         <font>
+            <Font name="Consolas" size="16.0" />
+         </font></Label>
+        <PasswordField fx:id="passwordField" layoutX="220.0" layoutY="245.0" prefHeight="26.0" prefWidth="260.0" />
+        <Button fx:id="loginButton" layoutX="276.0" layoutY="315.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="63.0" text="Login">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></Button>
+      <Label layoutX="106.0" layoutY="14.0" prefHeight="40.0" prefWidth="388.0" text="ADAPTIVE WELLNESS SYSTEM">
+         <font>
+            <Font name="Consolas" size="29.0" />
+         </font>
+      </Label>
+
+    </children>
+    <padding>
+        <Insets left="20.0" top="20.0" />
+    </padding>
+</Pane>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.adaptivewellness.SuggestionController">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="561.0" layoutX="-12.0" layoutY="-10.0" stroke="BLACK" strokeType="INSIDE" width="624.0">
+            <fill>
+                <LinearGradient endX="1.0" endY="1.0">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.13341130316257477" green="0.3878726363182068" blue="0.6105263233184814" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="0.699999988079071" green="0.699999988079071" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </fill>
+        </Rectangle>
+        <ImageView fitHeight="103.0" fitWidth="198.0" layoutX="92.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@heh.jpeg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="117.0" fitWidth="168.0" layoutX="398.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@ipa.jpeg" />
+            </image>
+        </ImageView>
+        <Label layoutX="83.0" layoutY="249.0" text="Healthy Eating Habits">
+            <font>
+                <Font name="Consolas" size="15.0" />
+            </font></Label>
+        <Label layoutX="359.0" layoutY="249.0" text="Increased Physical Activity">
+            <font>
+                <Font name="Consolas" size="15.0" />
+            </font></Label>
+        <ImageView fitHeight="152.0" fitWidth="210.0" layoutX="201.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@sm.jpeg" />
+            </image>
+        </ImageView>
+        <Label layoutX="236.0" layoutY="477.0" text="Stress Management">
+            <font>
+                <Font name="Consolas" size="15.0" />
+            </font></Label>
+        <Label layoutX="156.0" layoutY="38.0" text="OVERWEIGHT SUGGETIONS">
+            <font>
+                <Font name="Consolas Bold" size="26.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

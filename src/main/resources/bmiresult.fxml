@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.adaptivewellness.BMIResultController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="568.0" layoutX="-25.0" layoutY="-25.0" stroke="BLACK" strokeType="INSIDE" width="656.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.13341130316257477" green="0.3878726363182068" blue="0.6105263233184814" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.699999988079071" green="0.699999988079071" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+        <Label layoutX="228.0" layoutY="59.0" prefHeight="31.0" prefWidth="149.0" text="BMI Result">
+            <font>
+                <Font name="Consolas Bold" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="143.0" layoutY="135.0" text="Your BMI is :">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font></Label>
+        <Label layoutX="138.0" layoutY="181.0" text="BMI Category :">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font></Label>
+        <Button fx:id="suggestionButton" layoutX="244.0" layoutY="280.0" mnemonicParsing="false" onAction="#suggestion" text="Show suggestions" />
+
+        <Label fx:id="BmiLabel" layoutX="269.0" layoutY="129.0" prefHeight="30.0" prefWidth="149.0">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font></Label>
+        <Label fx:id="CategoryLabel" layoutX="268.0" layoutY="175.0" prefHeight="30.0" prefWidth="149.0">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font></Label>
+      <Label layoutX="238.0" layoutY="326.0" text=" BMI category :">
+         <font>
+            <Font name="Consolas Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="369.0" prefHeight="18.0" prefWidth="272.0" text="Underweight: BMI less than 18.5" textFill="#eaff00">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="400.0" prefHeight="18.0" prefWidth="372.0" text="Normal weight: BMI between 18.5 and 24.9" textFill="#12ff00">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="430.0" prefHeight="18.0" prefWidth="346.0" text="Overweight: BMI between 25.0 and 29.9" textFill="#ff5900">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="459.0" prefHeight="18.0" prefWidth="263.0" text="Obesity: BMI 30.0 and above" textFill="RED">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="230.0" text="Previous BMI :">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Previousbmi" layoutX="268.0" layoutY="224.0" prefHeight="30.0" prefWidth="310.0">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font>
+      </Label>
+    </children>
+    <padding>
+        <Insets left="20.0" top="20.0" />
+    </padding>
+</Pane>

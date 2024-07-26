@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.adaptivewellness.SuggestionController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="549.0" layoutX="-12.0" layoutY="2.0" stroke="BLACK" strokeType="INSIDE" width="624.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.13341130316257477" green="0.3878726363182068" blue="0.6105263233184814" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.699999988079071" green="0.699999988079071" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fitHeight="103.0" fitWidth="198.0" layoutX="71.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Superfoods.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="168.0" layoutX="398.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@New-Meal-Plan-27b.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="84.0" layoutY="249.0" text="Nutrient-Dense Diet">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font></Label>
+      <Label layoutX="375.0" layoutY="249.0" text="Structured Meal Planning">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font></Label>
+      <ImageView fitHeight="152.0" fitWidth="210.0" layoutX="195.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="168.0" layoutY="477.0" text="Strength and Resistance Training">
+         <font>
+            <Font name="Consolas" size="15.0" />
+         </font></Label>
+      <Label layoutX="148.0" layoutY="36.0" text="UNDERWEIGHT SUGGETIONS">
+         <font>
+            <Font name="Consolas Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
